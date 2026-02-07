@@ -1,14 +1,18 @@
 import './App.css'
 import First, { First1, First2 } from './First-Class/First'
+import Second from './Second-Class/Second'
 
 function App() {
 
   return (
     <>
       {/* Calling the component */}
-      <First/> 
+      {/* <First/> 
       <First1/>
-      <First2/>
+      <First2/> */}
+
+      {/* Second Class */}
+      <Second/>
     </>
   )
 }
