@@ -1,0 +1,9 @@
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+ul li{
+    font-size: 1.2rem;
+    list-style: none;
+}
